@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+.categories-container{
+    
+}
+
+.categories-heading{
+color: #000;
+text-align: center;
+font-family: Manrope;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 58px; /* 120.833% */
+margin-bottom: 16px;
+}
+
+.categories-desc{
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.categories-cards{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.right-arrow{
+    margin-right: -5vw; 
+}
+
+.left-arrow{
+    margin-left: -5vw;
+}
+
+
+/* .categories-outer-card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.categories-card-item{
+    width: 30%;
+    padding: 8%;
+    border-radius: 50%;
+    border: 8px solid rgba(32, 135, 23, 0.50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categories-card-item img {
+    width: 30px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.categories-card-title{
+    color: #000;
+text-align: center;
+font-family: Manrope;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 118.182% */
+}
+
+
+.categories-see-more{
+cursor: pointer;
+color: #1D9FDA;
+text-align: center;
+font-family: Manrope;
+margin-top: .5rem;
+}
+
+.categories-btn{
+    display: flex;
+    margin-top: 5vh;
+}
+
+
+.categories-container button {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Noto Sans";
+    cursor: pointer; 
+outline: 0;
+color: #fff;
+background-color: #1D9FDA;
+border-color: #0d6efd;
+display: inline-block;
+font-weight: 400;
+line-height: 1.5;
+text-align: center;
+border: 1px solid transparent;
+padding: 6px 30px;
+font-size: 16px;
+border-radius: .8rem;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+}

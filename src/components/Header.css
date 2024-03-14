@@ -1,0 +1,38 @@
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+
+.header-logo{
+    /* width: 180px; */
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    
+}
+
+.navbar ul li{
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px 20px;
+    color: #000;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+
+.search-vector{
+    width: 15px;
+}

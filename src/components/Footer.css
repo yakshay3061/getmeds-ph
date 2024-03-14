@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-headings{
+color: #132B2C;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 2vh;
+
+}
+
+.footer-icon{
+    margin-right: 5px;
+    
+}
+
+
+.footer-fileds{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vh;
+    color: #6A6A6A;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.special-footer-contact{
+color: #6A6A6A !important;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+align-items: flex-start;
+}
+
+.footer-address-important{
+    color: #6A6A6A !important;
+}
+
+
+
+
+
+.footer-address-logo{
+    color: #1D9FDA ;
+    padding-top: 2px;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+
+

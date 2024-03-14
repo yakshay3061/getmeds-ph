@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.homeContact-container{
+    width: 78%;
+    background: #1D9FDA;
+    position: relative;
+}
+
+.assist-container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+    width: 50%;
+    
+}
+
+.assist-contact{
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 1vh;
+}
+
+
+.how-can-assist{
+color: #FFF;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 2vh;
+}
+
+.assist-desc{
+    /* text-align: justify; */
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+/* line-height: 30px; */
+}
+
+.assist-address-location-container{
+    display: flex;
+    align-items: flex-start;
+}
+
+.location-logo{
+    padding-top: 2px;
+    margin-right: 5px;
+} 
+
+.assist-container-address{
+    margin-top: 5vh;
+}
+
+.assist-address-location{
+color: #FFF;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 100;
+}
+
+.assist-address-phn{
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.phone-logo{
+    margin-right: 5px;
+}
+
+.assist-address-email{
+    margin-top: 1vh;
+    display: flex;
+    align-items: center; 
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.email-logo{
+    padding-top: 2px;
+    margin-right: 5px;
+}

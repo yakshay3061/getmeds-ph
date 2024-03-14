@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.featured-products-container{
+    width: 100%;
+    padding-top: 1vh;
+}
+
+.feature-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-header-left {
+color: #000;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.feature-header-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.feature-header-viewall{
+color: #1D9FDA;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-right: 20px;
+}
+
+.feature-header-arrow{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.featured-products-cards{
+    padding-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-products-inner-card{
+    border-radius: 12px;
+    border: 2px solid #DFE3E6;
+    background: #FFF;
+    flex-wrap: wrap; 
+    /* width: 20%px; */
+    width: 13rem;
+    height: 35vh;
+    margin-bottom: 15px; 
+    /* text-align: center; */
+}
+
+.featured-products-inner-card img{
+    /* background-color: yellow; */
+    max-width: 100%;
+      max-height: 100%;
+      /* vertical-align: middle; */
+      /* display: inline-block; */
+}
+
+.featured-products-card-item{
+    text-align: center;
+}
+
+.featured-products-name{
+color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+#img-2{
+    padding-top: 10%;
+}
+
+#img-3{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+#img-4{
+    padding-top: 15%;
+}
+
+#img-5{
+    padding-top: 15%;
+}

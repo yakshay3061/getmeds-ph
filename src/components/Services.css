@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.services{
+    width: 100%;
+    padding-top: 10vh;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.services-container{
+    /* background-color: yellow; */
+    text-align: center;
+}
+
+.services-heading{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.services-card-container{
+    padding: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn{
+    cursor: pointer;
+outline: 0;
+color: #fff;
+background-color: #1D9FDA;
+border-color: #0d6efd;
+display: inline-block;
+font-weight: 400;
+line-height: 1.5;
+text-align: center;
+border: 1px solid transparent;
+padding: 6px 12px;
+font-size: 16px;
+border-radius: .5rem;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+}
+
+
+.card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 2%;
+    margin: 20px;
+    box-shadow: 4px 4px 50px 0px rgba(0, 0, 0, 0.07);
+    flex-wrap: wrap;
+    width: 100%; 
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.card p{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    color: #000000;
+    font-family: Inter;
+    
+}
+
+.card-heading{
+    font-size: 24px;
+    font-weight: 600px !important;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.card-content{
+    font-size: 14px;
+    text-align: center;
+}

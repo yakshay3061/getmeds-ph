@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+
+.aboutHome-container{
+    display: flex;
+}
+
+
+
+
+
+.about-home-right {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="2" height="1" viewBox="0 -250 353 393" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M95.9348 5.38985C95.5512 3.21428 97.0039 1.13964 99.1795 0.75603L103.119 0.0614378C105.294 -0.322175 107.369 1.1305 107.753 3.30608L111.225 23.0022L130.923 19.5291C133.098 19.1454 135.173 20.5981 135.556 22.7737L136.251 26.7129C136.635 28.8885 135.182 30.9631 133.006 31.3468L113.309 34.8199L116.782 54.5161C117.166 56.6917 115.713 58.7663 113.538 59.1499L109.598 59.8445C107.423 60.2281 105.348 58.7754 104.965 56.5999L101.492 36.9037L81.7964 40.3765C79.6209 40.7601 77.5462 39.3074 77.1626 37.1318L76.468 33.1926C76.0844 31.017 77.5371 28.9424 79.7127 28.5588L99.4078 25.086L95.9348 5.38985ZM206.093 47.4956C205.596 45.343 206.938 43.1952 209.091 42.6983C211.243 42.2013 213.391 43.5434 213.888 45.696L216.588 57.3888L228.28 54.6893C230.433 54.1923 232.581 55.5345 233.078 57.687C233.575 59.8395 232.233 61.9873 230.08 62.4843L218.387 65.1838L221.087 76.8758C221.583 79.0283 220.241 81.1761 218.089 81.6731C215.936 82.17 213.789 80.8279 213.292 78.6754L210.592 66.9834L198.9 69.6827C196.748 70.1796 194.6 68.8375 194.103 66.685C193.606 64.5325 194.948 62.3847 197.101 61.8877L208.793 59.1884L206.093 47.4956ZM15.0908 45.6983C12.9383 46.1952 11.5962 48.343 12.0932 50.4956L14.7927 62.1884L3.10059 64.8877C0.948075 65.3847 -0.39403 67.5325 0.102918 69.685C0.599866 71.8375 2.74768 73.1796 4.9002 72.6827L16.5923 69.9834L19.2916 81.6754C19.7885 83.8279 21.9364 85.17 24.0889 84.6731C26.2414 84.1761 27.5835 82.0283 27.0865 79.8758L24.3872 68.1838L36.08 65.4843C38.2326 64.9873 39.5747 62.8395 39.0777 60.687C38.5808 58.5345 36.433 57.1923 34.2804 57.6893L22.5876 60.3888L19.8881 48.696C19.3912 46.5434 17.2433 45.2013 15.0908 45.6983ZM92.9059 71.7366C92.5253 70.4093 93.2927 69.0249 94.6199 68.6443C95.9472 68.2637 97.3316 69.0312 97.7122 70.3584L99.7796 77.5682L106.99 75.5007C108.317 75.1201 109.701 75.8876 110.082 77.2148C110.463 78.542 109.695 79.9265 108.368 80.307L101.158 82.3745L103.225 89.5836C103.606 90.9108 102.838 92.2953 101.511 92.6759C100.184 93.0564 98.7992 92.289 98.4186 90.9618L96.3514 83.7527L89.1427 85.8198C87.8154 86.2003 86.431 85.4329 86.0504 84.1057C85.6698 82.7785 86.4372 81.394 87.7645 81.0135L94.9733 78.9464L92.9059 71.7366Z" fill="%23208717" fill-opacity="0.6"/></svg>')
+    , url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="100" viewBox="200 250 353 393" fill="none"><path d="M281 47.9495C157.629 91.2358 0 229.95 0 229.95L1315 337.95C1315 337.95 1705.68 248.85 1639.5 108.45C1595.98 16.1251 1503.49 -3.39271 1401.5 0.449546C1307.26 3.99979 1276.84 84.9557 1185.5 108.45C1020.14 150.983 922.797 60.2383 752.5 47.9495C568.845 34.6969 454.748 -13.0123 281 47.9495Z" fill="#208717" fill-opacity="0.5"/></svg>');
+     
+
+    background-size: cover; /* Adjust the background size as needed */
+    /* Other background properties such as position, repeat, etc. can also be adjusted here */
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+.about-home-right{
+    /* background-color: yellow; */
+
+    margin-left: 40px;
+
+    
+}
+
+.about-home-right p{
+    margin-bottom: 5vh;
+}
+
+.about-home-firstline{
+    font-size: 16px;
+    color: #208717;
+    font-family: Manrope;
+}
+
+.about-home-heading {
+    font-size: 36px;
+    font-family: Manrope;
+}
+
+
+.about-home-desc {
+    font-size: 16px;
+    font-family: Manrope;
+    font-style: normal;
+    text-align: justify;
+}
+
+.about-home-right button {
+    font-family: "Noto Sans";
+    cursor: pointer;
+outline: 0;
+color: #fff;
+background-color: #1D9FDA;
+border-color: #0d6efd;
+display: inline-block;
+font-weight: 400;
+line-height: 1.5;
+text-align: center;
+border: 1px solid transparent;
+padding: 6px 30px;
+font-size: 16px;
+border-radius: .8rem;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+}
+
